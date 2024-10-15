@@ -34,7 +34,7 @@ const Header = () => {
           <FaMoon />
         </button>
         <Link to="/sign-in">
-          <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-lg text-white font-semibold">
+          <button className="px-4 py-2 bg-transparent border-2 border-gradient-to-r from-blue-600 to-emerald-500 rounded-lg text-blue-600 font-semibold hover:bg-gradient-to-r hover:from-blue-600 hover:to-emerald-500 hover:text-white transition duration-300 ease-in-out">
             Sign In
           </button>
         </Link>
